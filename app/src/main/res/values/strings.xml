@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">"Canovius GPS "</string>
+    <string name="actividadManager">Administracion de dispositivos</string>
+    <string name="user">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="login">Entrar</string>
+    <string name="agree">Agergar</string>
+    <string name="new_dicice"><u>¿Como agregar un dispositivo?</u></string>
+    <string name="action_settings">settings</string>
+    <string name="delete">Elimimar</string>
+    <string name="resgistar">Registar</string>
+    <string name="are_your_sure"> "¿Estas seguro?"</string>
+    <string name="delete_divice"> "Eliminar dispositivo"</string>
+    <string name="sugerencia_lista"> "Deslize a la izquierda algun articulo de la lista"</string>
+    <string name="id">Id:</string>
+    <string name="dic">Direccion:</string>
+    <string name="model">Modelo:</string>
+    <string name="sliding_drawe_titulor">Detalles</string>
+    <string name="query_map">Ver mapa</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre_registro">Nombre</string>
+    <string name="login_tittle">Iniciar sesión </string>
+    <string name="email_registro">Email</string>
+    <string name="descripcion">Para agregar este dispositivo debes registarte en Canovious Manager  </string>
+    <string name="contrasena_registro">Contraseña</string>
+    <string name="registro_login"><u>¿Aun no tienes una cuenta?  Registrase :)</u></string>
+    <string name="regresar">regresar</string>
+    <string name="ingersar_todo_los_datos"> Ingresar todos los datos</string>
+    <string name="el_usuario_debe_tener_ocho_caracteres"> El usuario debe ser de 8 caracteres como minimo</string>
+    <string name="la_contrasena_debe_tener_ocho_caracteres"> La contraseña debe tener almenos 8 caracteres</string>
+    <string name="no_se_puede_acceder_al_servidor"> No se puede acceder al servidor, intentelo nuevamente</string>
+    <string name="este_dispositivo_ya_esta_vinculado"> Este dispositivo ya ha esta vinculado con otra cuenta</string>
+    <string name="maraca_agua_user">usuario o mail</string>
+    <string name="password">Contraseña</string>
+    <string name="password_confirmacion">Confirmar Contraseña</string>
+    <string name="guadar_menu">Guardar</string>
+    <string name="reg_titulo">Resgistrarse</string>
+    <string name="log_out">Cerrar sesion</string>
+    <string name="go_back">Regresar</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="update">Actualizar</string>
+    <string name="divice">Dispositivo:</string>
+    <string name="id_emei">Id:</string>
+    <string name="app_id">1735113930044152</string>
+    <string name="login_desc">Entrar con Facebook</string>
+    <string name="facebook_app_name">Canoviius</string>
+    <string name="direct"> Direccion :</string>
+    <string name="fecha"> Ultima actualizacion :</string>
+    <string name="no_disponible"> No disponible </string>
+    <string name="latitu">latitud :</string>
+    <string name="longitud">Longitud</string>
+    <string name="msg_progress_wait">Espere un momomento</string>
+    <string name="msg_progress_alert">¡No hay conexion!</string>
+    <string name="msg_progress_sin_intenet">Dedes tener acceso a internet</string>
+    <string name="wrap">match_parent</string>
+    <string name="padding">15dp</string>
+    <string name="divice_agree">Dispositivos agregados</string>
+    <string name="titulo_principal">CANOVIUS GPS</string>
+    <string name="msg_sin_intenet">Dedes tener acceso a internet</string>
+    <string name="msg_si">Aceptar</string>
+    <string name="msg_no">Cancelar</string>
+    <string name="msj_subtitulo">Dispositivo agregado</string>
+    <string name="string_error_publicacion">Error al crear la publicación.</string>
+    <string name="string_ok_publicacion">Publicación enviada.</string>
+    <string name="string_error_permisos">No se han dado los permisos para publicar.</string>
+    <string name="string_error_sesion">Ha ocurrido un error al iniciar sesión.</string>
+    <string name="string_button_publicar">Publicar actualización de estado</string>
+    <string name="string_saludo">Hola %1$s!</string>
+    <string name="gps_msg_habilitar">Habilitar GPS</string>
+    <string name="gps_msg_deshabilitar">El GPS esta deshabilidatdo en tu dispositivo ¿quieres habilitarlo?</string>
+    <string name="exit">salir</string>
+
+     <string name="acercade">
+          Lionsquare es un sueño de estuidantes que quiere mejorar las experiencia de los usuarios
+          a si como su manera de ver la vida, somos un pequeño grupo emprendedores
+         que intenta poner al dia a las personas y que no se queden atras en esta revolucionaria epoca de
+         tecnología.
+    </string>
+    <string name="coming_soon_update">
+         Proximanente
+
+        Control remoto para dispositivo: se prodra controlar algunas funciones de los disositivos vinculados con tu cuenta.
+        Integracion con facebook.\n
+        Apartado de noticias en la pantalla de inicio.
+        Editar tu cuenta a voluntad.
+        confirmaciones  por via mail.
+    </string>
+    <string name="divice_add_dialog">Dispositivo registrado correctamente</string>
+    <string name="back">Regresar</string>
+    <string name="coming_soon">Proximas Actualizaciones</string>
+    <string name="details_divice">Detalles del dispositivo</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="dirc_divice">Direcion del dispositivo</string>
+    <string name="dialog_description">Al agregarlo se actualizará automáticamente y aparecerá  en lista de administración de dispositivos</string>
+    <string name="rastreo">Canvius rastreo</string>
+
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+</resources>

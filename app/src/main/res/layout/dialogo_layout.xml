@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin">
+
+
+    <LinearLayout
+        style="@style/Widget.CardContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="90dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/dark_color" />
+
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/user"
+            android:hint="user o mail"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/dark_color"
+            android:textColorHint="@color/dark_color" />
+
+
+        <EditText
+            android:id="@+id/contraEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/password"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/dark_color"
+            android:textColorHint="@color/dark_color" />
+
+
+        <EditText
+            android:id="@+id/contraVerifiEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/password"
+            android:hint="@string/password_confirmacion"
+            android:inputType="textPassword"
+            android:textColor="@color/dark_color"
+            android:textColorHint="@color/dark_color" />
+
+        <Button
+            android:id="@+id/the_wonderful_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/styleButtonLoggin"
+            android:text="Regresar" />
+
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:elevation="2dp"
+        android:src="@android:drawable/ic_menu_save" />
+
+</android.support.v7.widget.CardView>

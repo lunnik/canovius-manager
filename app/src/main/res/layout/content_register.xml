@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lionsquare.canisovismanager.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/first_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_margin">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    style="@style/Widget.CardContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/app_bar"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_tittle"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/dark_color" />
+                    <!--Texto de ejemplo-->
+                    <EditText
+                        android:id="@+id/cajaUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:drawableLeft="@drawable/user"
+                        android:hint="@string/maraca_agua_user"
+                        android:inputType="textEmailAddress"
+                        android:padding="15dp"
+                        android:textColor="@color/bar_color_act"
+                        android:textColorHint="@color/dark_color" />
+
+
+                    <EditText
+                        android:id="@+id/cajaContra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:drawableLeft="@drawable/password"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:padding="15dp"
+                        android:textColor="@color/bar_color_act"
+                        android:textColorHint="@color/dark_color" />
+
+                    <Button
+                        android:id="@+id/buttonEntrar"
+                        style="@style/styleButtonLoggin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:text="@string/login" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/chkLogin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:buttonTint="@color/primary_dark_act"
+                            android:checkMark="@color/dark_color"
+                            android:checked="true" />
+
+                        <TextView
+                            android:id="@+id/text_noticias"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@+id/checkbox_noticias"
+                            android:layout_toRightOf="@+id/checkbox_noticias"
+                            android:text="¿recordar cuenta?"
+                            android:textColor="@color/dark_color" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <io.codetail.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/the_awesome_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <include layout="@layout/dialogo_layout" />
+
+            </android.support.v4.widget.NestedScrollView>
+        </FrameLayout>
+
+    </io.codetail.widget.RevealFrameLayout>
+
+</FrameLayout>

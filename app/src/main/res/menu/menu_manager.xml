@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/canovius"
+        android:title="@string/rastreo"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/actualizar"
+        android:title="@string/update"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/salir"
+        android:title="@string/log_out"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
